@@ -1,4 +1,4 @@
-import React, { useState, useContext, createContext } from 'react';
+import React, { useState, useContext, useEffect, createContext } from 'react';
 import * as Google from 'expo-google-app-auth';
 import { GoogleAuthProvider, onAuthStateChanged, signInWithCredential } from '@firebase/auth';
 import { auth } from '../firebase';
